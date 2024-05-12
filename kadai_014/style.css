@@ -6,3 +6,17 @@ h1,#first-heading {
   text-shadow: 2px 2px 4px gray;
   border-bottom: solid 3px rgb(115,115,114)
 }
+p,.textblue,.textpink{
+  text-align: center;
+}
+.textpink{
+  color:pink
+}
+.textblue{
+ color:skyblue
+}
+
+.weight{
+font-weight: bold;
+  
+}
