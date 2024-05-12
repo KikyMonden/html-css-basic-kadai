@@ -1,5 +1,8 @@
 h1,#first-heading {
-  font-family: sans-serif;
+  font-family:  "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   font-size: 40px;
   text-align: center;
   letter-spacing: 40.2px;
@@ -18,4 +21,5 @@ p,.textblue,.textpink{
 
 .weight{
 font-weight: bold;
+  
 }
