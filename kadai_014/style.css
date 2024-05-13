@@ -6,20 +6,21 @@ h1,#first-heading {
   font-size: 40px;
   text-align: center;
   letter-spacing: 40.2px;
-  text-shadow: 2px 2px 4px gray;
+  text-shadow: 1px 1px 2px gray;
   border-bottom: solid 3px rgb(115,115,114)
 }
-p,.textblue,.textpink{
+.first-paragraph {
   text-align: center;
+  color: pink
 }
-.textpink{
-  color:pink
+.kuroji {
+  text-align: center;
+  font-weight: bold;
 }
-.textblue{
- color:skyblue
+.second-paragraph {
+  text-align: center;
+  color: skyblue;
 }
-
-.weight{
-font-weight: bold;
-  
+p {
+  text-align: center;
 }
