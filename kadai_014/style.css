@@ -1,28 +1,33 @@
-h1,#first-heading {
-  font-family:  "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 40.2px;
-  text-shadow: 1px 1px 2px gray;
-  border-bottom: solid 3px rgb(115,115,114)
+html {
+  font-size: 20px;
+ }
+
+body {
+font-family: "Arial", "Meiryo", sans-serif;
+text-align: center;
 }
 
-p, .first-paragraph, .second-paragraph{
+h1,
+#first-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
   text-align: center;
+  letter-spacing: 1.2em;
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
 }
-.first-paragraph {
-  font-size: 1.5rem;
+
+.child {
   color: pink
 }
+
 .kuroji {
   font-weight: bold;
 }
-.second-paragraph {
-  font-size: 1.5rem;
+
+.grandchild {
   color: skyblue;
 }
-
-
