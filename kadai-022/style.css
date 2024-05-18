@@ -1,4 +1,14 @@
-#first-headding {
+h1,
+p,
+body {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+header {
   margin-bottom: 20px;
   background-color: rgb(255, 79, 79);
   text-align: center;
@@ -7,11 +17,12 @@
 
 .main {
   padding: 10px;
+
 }
 
 #parent {
   display: flex;
-  flex-direction: column;
+  justify-content: flex;
 }
 
 .contents {
@@ -20,11 +31,12 @@
   padding-top: 10px 15px;
   margin: 20px 0px;
   text-align: center;
+  margin: auto;
 }
 
 h2 {
   font-size: 25px;
-  text-decoration: underline 3px dotted rgb(236, 122, 122);
+  border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
 h2::before {
@@ -42,16 +54,17 @@ h2::before {
   width: 70%;
 }
 
-.footer {
+footer {
   background-color: rgb(244, 79, 79);
   text-align: center;
 }
 
-.a {
+a {
+  font-size: 20px;
   color: rgb(255, 255, 255);
 }
 
-.a:visited {
+a:visited {
   color: rgb(193, 234, 251, );
 }
 
@@ -73,6 +86,8 @@ a:hover {
   }
 
   #parent {
-    display: inline;
+    flex-direction: column;
+
   }
+
 }
